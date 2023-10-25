@@ -70,6 +70,6 @@ def lambda_handler(event,context):
         Body=json_data,
     )
     
-    return {"statusCode": 200, "body": "Data inserted into the bucket."}
+    return {"statusCode": 200, "body": "Data inserted into the bucket.EYLO"}
 
 
